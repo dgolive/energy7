@@ -1,0 +1,5 @@
+googlemaps
+pandas
+streamlit
+watchdog
+requests

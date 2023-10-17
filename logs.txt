@@ -1,0 +1,112 @@
+2023-10-16 22:21:18.156 Starting server...
+2023-10-16 22:21:18.156 Serving static content from /Users/danilooliveira/Library/CloudStorage/OneDrive-Personal/Danilo/Tech/python/.venv/lib/python3.11/site-packages/streamlit/static
+2023-10-16 22:21:18.159 Server started on port 8501
+2023-10-16 22:21:18.159 Runtime state: RuntimeState.INITIAL -> RuntimeState.NO_SESSIONS_CONNECTED
+2023-10-16 22:21:18.225 Skipping PyPI version check
+2023-10-16 22:21:18.225 Setting up signal handler
+2023-10-16 22:21:18.659 AppSession initialized (id=fd8eedcc-4506-4b12-b14e-b07b6a2892c0)
+2023-10-16 22:21:18.659 Created new session for client 5518218512. Session ID: fd8eedcc-4506-4b12-b14e-b07b6a2892c0
+2023-10-16 22:21:18.659 Runtime state: RuntimeState.NO_SESSIONS_CONNECTED -> RuntimeState.ONE_OR_MORE_SESSIONS_CONNECTED
+2023-10-16 22:21:18.659 Received the following back message:
+rerun_script {
+  widget_states {
+  }
+}
+
+2023-10-16 22:21:18.663 Beginning script thread
+2023-10-16 22:21:18.664 Running script RerunData(widget_states=)
+2023-10-16 22:21:18.664 Disconnecting files for session with ID fd8eedcc-4506-4b12-b14e-b07b6a2892c0
+2023-10-16 22:21:18.664 Sessions still active: dict_keys([])
+2023-10-16 22:21:18.664 Files: 0; Sessions with files: 0
+2023-10-16 22:21:18.766 Removing orphaned files...
+2023-10-16 22:21:18.804 Script run finished successfully; removing expired entries from MessageCache (max_age=2)
+2023-10-16 22:21:31.271 Received the following back message:
+rerun_script {
+  widget_states {
+    widgets {
+      id: "$$WIDGET_ID-e9e5ae7e43d302a6acc5ccbbb7ed8802-None"
+      string_value: "Rua Professora Altina Maynard de Araujo, 735, Parque São Domingos, São Paulo, SP, Brasil"
+    }
+  }
+  page_script_hash: "26513592260c0b21252ef71d52829d96"
+}
+
+2023-10-16 22:21:31.273 Beginning script thread
+2023-10-16 22:21:31.280 Running script RerunData(widget_states=widgets {
+  id: "$$WIDGET_ID-e9e5ae7e43d302a6acc5ccbbb7ed8802-None"
+  string_value: "Rua Professora Altina Maynard de Araujo, 735, Parque São Domingos, São Paulo, SP, Brasil"
+}
+, page_script_hash='26513592260c0b21252ef71d52829d96')
+2023-10-16 22:21:31.280 Disconnecting files for session with ID fd8eedcc-4506-4b12-b14e-b07b6a2892c0
+2023-10-16 22:21:31.281 Sessions still active: dict_keys([])
+2023-10-16 22:21:31.281 Files: 0; Sessions with files: 0
+2023-10-16 22:21:31.283 Removing orphaned files...
+2023-10-16 22:21:31.302 Script run finished successfully; removing expired entries from MessageCache (max_age=2)
+2023-10-16 22:21:31.420 Received the following back message:
+rerun_script {
+  widget_states {
+    widgets {
+      id: "$$WIDGET_ID-e9e5ae7e43d302a6acc5ccbbb7ed8802-None"
+      string_value: "Rua Professora Altina Maynard de Araujo, 735, Parque São Domingos, São Paulo, SP, Brasil"
+    }
+    widgets {
+      id: "$$WIDGET_ID-49e17f5698218c4e1fb5bddb6da09292-None"
+      trigger_value: true
+    }
+  }
+  page_script_hash: "26513592260c0b21252ef71d52829d96"
+}
+
+2023-10-16 22:21:31.420 Beginning script thread
+2023-10-16 22:21:31.421 Running script RerunData(widget_states=widgets {
+  id: "$$WIDGET_ID-e9e5ae7e43d302a6acc5ccbbb7ed8802-None"
+  string_value: "Rua Professora Altina Maynard de Araujo, 735, Parque São Domingos, São Paulo, SP, Brasil"
+}
+widgets {
+  id: "$$WIDGET_ID-49e17f5698218c4e1fb5bddb6da09292-None"
+  trigger_value: true
+}
+, page_script_hash='26513592260c0b21252ef71d52829d96')
+2023-10-16 22:21:31.421 Disconnecting files for session with ID fd8eedcc-4506-4b12-b14e-b07b6a2892c0
+2023-10-16 22:21:31.421 Sessions still active: dict_keys([])
+2023-10-16 22:21:31.421 Files: 0; Sessions with files: 0
+2023-10-16 22:21:32.369 Removing orphaned files...
+2023-10-16 22:21:32.425 Script run finished successfully; removing expired entries from MessageCache (max_age=2)
+2023-10-16 22:21:48.054 AppSession initialized (id=d18d90bc-4f00-4730-99a1-7dfd8e2259a1)
+2023-10-16 22:21:48.054 Created new session for client 5518215888. Session ID: d18d90bc-4f00-4730-99a1-7dfd8e2259a1
+2023-10-16 22:21:48.054 Runtime state: RuntimeState.ONE_OR_MORE_SESSIONS_CONNECTED -> RuntimeState.ONE_OR_MORE_SESSIONS_CONNECTED
+2023-10-16 22:21:48.057 Received the following back message:
+rerun_script {
+  widget_states {
+    widgets {
+      id: "$$WIDGET_ID-e9e5ae7e43d302a6acc5ccbbb7ed8802-None"
+      string_value: "Rua Professora Altina Maynard de Araujo, 735, Parque São Domingos, São Paulo, SP, Brasil"
+    }
+  }
+  page_script_hash: "26513592260c0b21252ef71d52829d96"
+}
+
+2023-10-16 22:21:48.057 Beginning script thread
+2023-10-16 22:21:48.057 Running script RerunData(widget_states=widgets {
+  id: "$$WIDGET_ID-e9e5ae7e43d302a6acc5ccbbb7ed8802-None"
+  string_value: "Rua Professora Altina Maynard de Araujo, 735, Parque São Domingos, São Paulo, SP, Brasil"
+}
+, page_script_hash='26513592260c0b21252ef71d52829d96')
+2023-10-16 22:21:48.057 Disconnecting files for session with ID d18d90bc-4f00-4730-99a1-7dfd8e2259a1
+2023-10-16 22:21:48.057 Sessions still active: dict_keys([])
+2023-10-16 22:21:48.057 Files: 0; Sessions with files: 0
+2023-10-16 22:21:48.061 Removing orphaned files...
+2023-10-16 22:21:48.103 Script run finished successfully; removing expired entries from MessageCache (max_age=2)
+2023-10-16 22:23:31.540 Runtime stopping...
+2023-10-16 22:23:31.540 Runtime state: RuntimeState.ONE_OR_MORE_SESSIONS_CONNECTED -> RuntimeState.STOPPING
+2023-10-16 22:23:31.541 Shutting down (id=fd8eedcc-4506-4b12-b14e-b07b6a2892c0)
+2023-10-16 22:23:31.541 Disconnecting files for session with ID fd8eedcc-4506-4b12-b14e-b07b6a2892c0
+2023-10-16 22:23:31.541 Sessions still active: dict_keys([])
+2023-10-16 22:23:31.541 Files: 0; Sessions with files: 0
+2023-10-16 22:23:31.541 Removing orphaned files...
+2023-10-16 22:23:31.541 Shutting down (id=d18d90bc-4f00-4730-99a1-7dfd8e2259a1)
+2023-10-16 22:23:31.541 Disconnecting files for session with ID d18d90bc-4f00-4730-99a1-7dfd8e2259a1
+2023-10-16 22:23:31.541 Sessions still active: dict_keys([])
+2023-10-16 22:23:31.541 Files: 0; Sessions with files: 0
+2023-10-16 22:23:31.541 Removing orphaned files...
+2023-10-16 22:23:31.541 Runtime state: RuntimeState.STOPPING -> RuntimeState.STOPPED
