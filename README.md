@@ -18,3 +18,9 @@ streamlit run streamlit_app.py --logger.level=debug 2>logs.txt
 
 
 light gray #e0e0ef
+
+4406 Wellington Blvd, Alexandria, LA 71303, USA
+31.282110594491865, -92.4863446041858
+
+Contributing
+This project is being maintained by a small group of people, and any help with issues and pull requests are always appreciated. If you are able and willing to contribute, please read the guidelines.
