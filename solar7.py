@@ -3,6 +3,9 @@ import streamlit as st
 import requests
 import logging
 
+with open('.env') as f:
+    GOOGLE_MAPS_API_KEY = f.read()
+
 # logging.basicConfig(filename='solar7.log')
 # logging.debug('This message should go to the log file')
 
@@ -18,18 +21,18 @@ address = st.text_input("Enter an Address to search in Google Maps API:")
 # Button to Trigger Geocoding
 if st.button("CHECK MY ROOF"):
     ## Perform Geocoding
-    # geocoding_api_url = f"https://maps.googleapis.com/maps/api/geocode/json?address={address}&key=AIzaSyDquwjG9pbEcD56YGyRwmzvmbotq797F1c"
-    # response = requests.get(geocoding_api_url)
-    # data = response.json()
+    geocoding_api_url = f"https://maps.googleapis.com/maps/api/geocode/json?address={address}&key={GOOGLE_MAPS_API_KEY}"
+    response = requests.get(geocoding_api_url)
+    data = response.json()
 
     ## Save Coordinates into JSON file for save spent with API during tests
     # with open('data/coordinates.json', 'w') as outfile:
     #     json.dump(data, outfile)
 
-    with open('data/coordinates.json') as json_file:
-        data = json.load(json_file)
+    # with open('data/coordinates.json') as json_file:
+    #     data = json.load(json_file)
 
-    st.write(data) #log
+    st.write('via api', data) #log
 
     if data['status'] == 'OK':
         location = data['results'][0]['geometry']['location']
@@ -44,7 +47,7 @@ if st.button("CHECK MY ROOF"):
 
         # Button to Trigger Solar API   
         
-        # solar_api_url_building_insights = f"https://solar.googleapis.com/v1/buildingInsights:findClosest?location.latitude={lat}&location.longitude={lng}&requiredQuality=HIGH&key=AIzaSyDquwjG9pbEcD56YGyRwmzvmbotq797F1c"
+        # solar_api_url_building_insights = f"https://solar.googleapis.com/v1/buildingInsights:findClosest?location.latitude={lat}&location.longitude={lng}&requiredQuality=HIGH&key={GOOGLE_MAPS_API_KEY}"
         # st.write({solar_api_url_building_insights})  # URL Logging
         # solar_api_url_building_insights_response = requests.get(solar_api_url_building_insights)
         # solar_api_url_building_insights_data = solar_api_url_building_insights_response.json()
