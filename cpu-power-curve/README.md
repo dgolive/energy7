@@ -8,12 +8,12 @@ Benchmarks:
 
 How to test:
 ```bash
-$ streamlit run greenchips.py
+$ streamlit run cpu-power-curve.py
 ```
 
 debug mode:
 ```bash
-streamlit run greenchips.py --logger.level=debug 3
+streamlit run cpu-power-curve.py --logger.level=debug 3
 ```
 
 ### screens
