@@ -1,17 +1,17 @@
-# Solar 7
-Solar7 is an Open Source Sustaintability Project that aims to contribute to SDG 7 - Affordable and Clean Energy
+# Energy7
+Energy7 is an Open Source Sustaintability Project that aims to contribute to SDG 7 - Affordable and Clean Energy
 
 <p align=center>
-    <a href="https://github.com/dgolive/solar7/blob/master/LICENSE"><img src="https://img.shields.io/badge/License-Apache%202.0-success" alt="Apache 2.0 License"></a>
+    <a href="https://github.com/dgolive/Energy7/blob/master/LICENSE"><img src="https://img.shields.io/badge/License-Apache%202.0-success" alt="Apache 2.0 License"></a>
 </p>
 
 ## About
-Solar 7 was developed to work with Google Maps Platform Solar API providing:
+Energy7 was developed to work with Google Maps Platform Solar API providing:
  - insights about the location, dimensions, and solar potential of a building.
  - URLs for raw solar information datasets for an area surrounding a location.
  - Digital surface model, an aerial image, annual and monthly flux maps, and hourly shade.
 
-Solar 7 will help users:
+Energy7 will help users:
 
 - Remotely design a solar power system.
 - Reduce solar site assessment time.
@@ -27,18 +27,18 @@ The Google Maps Platform Solar API is a service focused on helping accelerate so
 
 
 ## API costs
-Is important understant that Google Cloud Solar API has costs, check it out [here](https://developers.google.com/maps/documentation/solar/usage-and-billing), otherwise Google Maps Platform and Solar7 helps users to help the planet!
+Is important understant that Google Cloud Solar API has costs, check it out [here](https://developers.google.com/maps/documentation/solar/usage-and-billing), otherwise Google Maps Platform and Energy7 helps users to help the planet!
 
 For each billing account, for qualifying Google Maps Platform SKUs, a $200 USD Google Maps Platform credit is available each month (which resets the first day of each month, at midnight Pacific time), and automatically applied to the qualifying SKUs. 
 
-All Google Maps SOLAR API SKUs are qualifyied to use this above credit.
+All Google SOLAR API SKUs are qualifyied to use this above credit.
 
 
 ## Country and region Coverage
-Solar7 latest version (v0.1.0) was tested United States and Brazil regions, however it is already possible to test in Europe and Latin America. Let we know about the results, please [here]("send email") 
+Energy7 latest version (v0.1.0) was tested United States and Brazil regions, however it is already possible to test in Europe and Latin America. Let we know about the results, please [here]("send email") 
 
 ## How to use
-Create a Google Cloud Account --> Google Cloud API Solar --> Solar 7 Application
+Create a Google Cloud Account --> Google Cloud API Solar --> Energy7 Application
 
 ### Set up your Google Cloud Project and Billing
 https://developers.google.com/maps/documentation/solar/cloud-setup?hl=en
@@ -49,15 +49,20 @@ https://developers.google.com/maps/documentation/solar/cloud-setup?hl=en
 ### Instalation
 ```git
 git clone https://github.com/dgolive/energy7
-cd solar 7
+cd Energy7
 ```
 
 ### Configuration
 Configure the Google Maps API Key create previously in the .env
 
 
-### Example
+### Running the app
+```
+streamlit run main.py
+```
 
+### Example
+![energy7 UI](image.png)
 
 ## Contributors
 Welcome

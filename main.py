@@ -1,6 +1,3 @@
-# streamlit_app.py
-import streamlit as st
-import subprocess
-import sys
+from src.frontend import mainpage
 
-subprocess.run([f"{sys.executable}", "solar7.py"])
+mainpage()
